@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Sign In</title>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script src="js/kickstart.js"></script>
+<!-- KICKSTART -->
+<link rel="stylesheet" href="css/kickstart.css" media="all" />
+<!-- KICKSTART -->
+<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+</head>
+
+<body>
+	<div>
+		<div style="margin-top: 0px; height: 277px; background-color: #600">
+			<br />
+			<h1 class="center">
+				<img class="caption" src="Images/iuf_symbol_red.jpg" width="75"
+					height="75" /><br /> <font color="#fff" size="+4">I</font><font
+					color="#ececec" size="+3">NDIANA</font> <font color="#fff"
+					size="+4">U</font><font color="#ececec" size="+3">NIVERSITY</font>
+				<font color="#fff" size="+4">F</font><font color="#ececec" size="+3">OUNDATION</font>
+			</h1>
+		</div>
+
+		<br /> <br />
+        
+		<div 
+			style="position:absolute;  width: 300px; left:50%; top:197px; margin-left:-263px;">
+            
+			<form style="margin-top: 10px; background-color: #FFF;" id="login_form" name="login_gorm" method="post"
+			action="/IUF/sign_in">
+				<table bgcolor="#FFFFFF">
+					<tr>
+						<td>
+							<h4 class="center">
+								<font color="#660000">ELECTRONIC TICKLER SYSTEM</font>
+							</h4>
+						</td>
+					</tr>
+
+					<tr>
+						<td class="center" align="center">
+
+							<div class="center grid col_3">
+								<font color="#660000">
+									<table width="40" style="background-color: #FFF"
+										cellspacing="0" cellpadding="0" align="center">
+
+										<tr>
+											<td><label for="user_name"><i class="icon-user"></i>&nbsp;&nbsp;<b>Username</b></label>
+											</td>
+										</tr>
+
+										<tr>
+											<td><input name="user_name" type="text" size="80px" /></td>
+										</tr>
+
+										<tr>
+											<td><label for="password"><i class="icon-lock"></i>&nbsp;&nbsp;<b>Password</b></label>
+											</td>
+										</tr>
+
+										<tr>
+											<td><input name="password" type="password" size="80px" />
+											</td>
+										</tr>
+
+
+
+									</table>
+								</font>
+
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td align="center" class="center">
+							<button class="medium red" type="submit">
+								<center>
+									Sign In&nbsp;&nbsp;<i class="icon-caret-right"></i>
+								</center>
+							</button>
+
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	<div id="footer"
+		style="margin-top: 305px; bottom: 0; width: 100%; height: 80px;">
+		Website developed by<br />Haroon Ashraf
+	</div>
+</body>
+</html>
